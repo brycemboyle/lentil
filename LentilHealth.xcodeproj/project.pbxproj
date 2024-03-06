@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0218BE512B97F39C0049EA7F /* UserManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0218BE502B97F39C0049EA7F /* UserManager.swift */; };
 		02A008872B645416007CE0FC /* LentilHealthApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02A008862B645416007CE0FC /* LentilHealthApp.swift */; };
 		02A008892B645416007CE0FC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02A008882B645416007CE0FC /* ContentView.swift */; };
 		02A0088B2B645418007CE0FC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 02A0088A2B645418007CE0FC /* Assets.xcassets */; };
@@ -14,6 +15,38 @@
 		02A008982B645419007CE0FC /* LentilHealthTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02A008972B645419007CE0FC /* LentilHealthTests.swift */; };
 		02A008A22B645419007CE0FC /* LentilHealthUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02A008A12B645419007CE0FC /* LentilHealthUITests.swift */; };
 		02A008A42B645419007CE0FC /* LentilHealthUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02A008A32B645419007CE0FC /* LentilHealthUITestsLaunchTests.swift */; };
+		02A008B42B645751007CE0FC /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 02A008B32B645751007CE0FC /* FirebaseAuth */; };
+		02A008B62B645751007CE0FC /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 02A008B52B645751007CE0FC /* FirebaseFirestore */; };
+		02A008B82B645751007CE0FC /* FirebaseFirestoreSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 02A008B72B645751007CE0FC /* FirebaseFirestoreSwift */; };
+		02A008BD2B647E36007CE0FC /* CheckInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02A008BC2B647E36007CE0FC /* CheckInView.swift */; };
+		02A008BF2B647E5D007CE0FC /* CheckInCategoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02A008BE2B647E5D007CE0FC /* CheckInCategoryView.swift */; };
+		02A008C12B647E7E007CE0FC /* CheckInItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02A008C02B647E7E007CE0FC /* CheckInItemView.swift */; };
+		02A008C32B647F1B007CE0FC /* CheckInSummaryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02A008C22B647F1B007CE0FC /* CheckInSummaryView.swift */; };
+		02A008C52B647F4C007CE0FC /* AddItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02A008C42B647F4C007CE0FC /* AddItemView.swift */; };
+		02A008C72B647F9D007CE0FC /* AddCategoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02A008C62B647F9D007CE0FC /* AddCategoryView.swift */; };
+		02A008C92B647FC0007CE0FC /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02A008C82B647FC0007CE0FC /* LoginView.swift */; };
+		02A008CB2B647FCD007CE0FC /* RegisterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02A008CA2B647FCD007CE0FC /* RegisterView.swift */; };
+		02A008D42B6480D5007CE0FC /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02A008D32B6480D5007CE0FC /* User.swift */; };
+		02A008D62B6480E3007CE0FC /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02A008D52B6480E3007CE0FC /* Category.swift */; };
+		02A008D82B6480EC007CE0FC /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02A008D72B6480EC007CE0FC /* Item.swift */; };
+		02A008DA2B64811C007CE0FC /* ContentViewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02A008D92B64811C007CE0FC /* ContentViewViewModel.swift */; };
+		02A008DC2B64812B007CE0FC /* CheckInViewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02A008DB2B64812B007CE0FC /* CheckInViewViewModel.swift */; };
+		02A008DE2B648146007CE0FC /* CheckInCategoryViewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02A008DD2B648146007CE0FC /* CheckInCategoryViewViewModel.swift */; };
+		02A008E02B648156007CE0FC /* CheckInItemViewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02A008DF2B648156007CE0FC /* CheckInItemViewViewModel.swift */; };
+		02A008E22B648167007CE0FC /* CheckInSummaryViewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02A008E12B648167007CE0FC /* CheckInSummaryViewViewModel.swift */; };
+		02A008E42B648175007CE0FC /* AddItemViewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02A008E32B648175007CE0FC /* AddItemViewViewModel.swift */; };
+		02A008E62B648187007CE0FC /* AddCategoryViewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02A008E52B648187007CE0FC /* AddCategoryViewViewModel.swift */; };
+		02A008E82B648194007CE0FC /* LoginViewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02A008E72B648194007CE0FC /* LoginViewViewModel.swift */; };
+		02A008EA2B6481A1007CE0FC /* RegisterViewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02A008E92B6481A1007CE0FC /* RegisterViewViewModel.swift */; };
+		02A008EC2B648516007CE0FC /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02A008EB2B648516007CE0FC /* HeaderView.swift */; };
+		02A008EE2B64924E007CE0FC /* FormButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02A008ED2B64924E007CE0FC /* FormButton.swift */; };
+		02A008F02B64A6EF007CE0FC /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02A008EF2B64A6EF007CE0FC /* Extensions.swift */; };
+		02F9A9DB2B658DAD006DB0D9 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02F9A9DA2B658DAD006DB0D9 /* SettingsView.swift */; };
+		02F9A9DD2B658DC7006DB0D9 /* SettingsViewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02F9A9DC2B658DC7006DB0D9 /* SettingsViewViewModel.swift */; };
+		02F9A9DF2B659077006DB0D9 /* CheckInPageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02F9A9DE2B659077006DB0D9 /* CheckInPageView.swift */; };
+		02F9A9E12B659089006DB0D9 /* CheckInPageViewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02F9A9E02B659089006DB0D9 /* CheckInPageViewViewModel.swift */; };
+		02F9A9E32B65EF12006DB0D9 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 02F9A9E22B65EF12006DB0D9 /* Launch Screen.storyboard */; };
+		02F9A9E72B97AA3F006DB0D9 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 02F9A9E62B97AA3F006DB0D9 /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +67,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0218BE502B97F39C0049EA7F /* UserManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserManager.swift; sourceTree = "<group>"; };
 		02A008832B645416007CE0FC /* LentilHealth.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LentilHealth.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		02A008862B645416007CE0FC /* LentilHealthApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LentilHealthApp.swift; sourceTree = "<group>"; };
 		02A008882B645416007CE0FC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -44,6 +78,35 @@
 		02A0089D2B645419007CE0FC /* LentilHealthUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LentilHealthUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		02A008A12B645419007CE0FC /* LentilHealthUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LentilHealthUITests.swift; sourceTree = "<group>"; };
 		02A008A32B645419007CE0FC /* LentilHealthUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LentilHealthUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		02A008BC2B647E36007CE0FC /* CheckInView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckInView.swift; sourceTree = "<group>"; };
+		02A008BE2B647E5D007CE0FC /* CheckInCategoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckInCategoryView.swift; sourceTree = "<group>"; };
+		02A008C02B647E7E007CE0FC /* CheckInItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckInItemView.swift; sourceTree = "<group>"; };
+		02A008C22B647F1B007CE0FC /* CheckInSummaryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckInSummaryView.swift; sourceTree = "<group>"; };
+		02A008C42B647F4C007CE0FC /* AddItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddItemView.swift; sourceTree = "<group>"; };
+		02A008C62B647F9D007CE0FC /* AddCategoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddCategoryView.swift; sourceTree = "<group>"; };
+		02A008C82B647FC0007CE0FC /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		02A008CA2B647FCD007CE0FC /* RegisterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterView.swift; sourceTree = "<group>"; };
+		02A008D32B6480D5007CE0FC /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		02A008D52B6480E3007CE0FC /* Category.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Category.swift; sourceTree = "<group>"; };
+		02A008D72B6480EC007CE0FC /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		02A008D92B64811C007CE0FC /* ContentViewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentViewViewModel.swift; sourceTree = "<group>"; };
+		02A008DB2B64812B007CE0FC /* CheckInViewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckInViewViewModel.swift; sourceTree = "<group>"; };
+		02A008DD2B648146007CE0FC /* CheckInCategoryViewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckInCategoryViewViewModel.swift; sourceTree = "<group>"; };
+		02A008DF2B648156007CE0FC /* CheckInItemViewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckInItemViewViewModel.swift; sourceTree = "<group>"; };
+		02A008E12B648167007CE0FC /* CheckInSummaryViewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckInSummaryViewViewModel.swift; sourceTree = "<group>"; };
+		02A008E32B648175007CE0FC /* AddItemViewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddItemViewViewModel.swift; sourceTree = "<group>"; };
+		02A008E52B648187007CE0FC /* AddCategoryViewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddCategoryViewViewModel.swift; sourceTree = "<group>"; };
+		02A008E72B648194007CE0FC /* LoginViewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewViewModel.swift; sourceTree = "<group>"; };
+		02A008E92B6481A1007CE0FC /* RegisterViewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewViewModel.swift; sourceTree = "<group>"; };
+		02A008EB2B648516007CE0FC /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
+		02A008ED2B64924E007CE0FC /* FormButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormButton.swift; sourceTree = "<group>"; };
+		02A008EF2B64A6EF007CE0FC /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		02F9A9DA2B658DAD006DB0D9 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		02F9A9DC2B658DC7006DB0D9 /* SettingsViewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewViewModel.swift; sourceTree = "<group>"; };
+		02F9A9DE2B659077006DB0D9 /* CheckInPageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckInPageView.swift; sourceTree = "<group>"; };
+		02F9A9E02B659089006DB0D9 /* CheckInPageViewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckInPageViewViewModel.swift; sourceTree = "<group>"; };
+		02F9A9E22B65EF12006DB0D9 /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
+		02F9A9E62B97AA3F006DB0D9 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +114,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				02A008B42B645751007CE0FC /* FirebaseAuth in Frameworks */,
+				02A008B62B645751007CE0FC /* FirebaseFirestore in Frameworks */,
+				02A008B82B645751007CE0FC /* FirebaseFirestoreSwift in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -71,6 +137,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0218BE4F2B97F3760049EA7F /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				0218BE502B97F39C0049EA7F /* UserManager.swift */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
 		02A0087A2B645416007CE0FC = {
 			isa = PBXGroup;
 			children = (
@@ -94,9 +168,11 @@
 		02A008852B645416007CE0FC /* LentilHealth */ = {
 			isa = PBXGroup;
 			children = (
-				02A008862B645416007CE0FC /* LentilHealthApp.swift */,
-				02A008882B645416007CE0FC /* ContentView.swift */,
-				02A0088A2B645418007CE0FC /* Assets.xcassets */,
+				0218BE4F2B97F3760049EA7F /* Managers */,
+				02A008D22B6480C4007CE0FC /* Models */,
+				02A008BB2B645D31007CE0FC /* Other */,
+				02A008BA2B645D25007CE0FC /* Views */,
+				02A008B92B645CEE007CE0FC /* ViewModels */,
 				02A0088C2B645418007CE0FC /* Preview Content */,
 			);
 			path = LentilHealth;
@@ -127,6 +203,66 @@
 			path = LentilHealthUITests;
 			sourceTree = "<group>";
 		};
+		02A008B92B645CEE007CE0FC /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				02A008D92B64811C007CE0FC /* ContentViewViewModel.swift */,
+				02F9A9E02B659089006DB0D9 /* CheckInPageViewViewModel.swift */,
+				02A008DB2B64812B007CE0FC /* CheckInViewViewModel.swift */,
+				02A008DD2B648146007CE0FC /* CheckInCategoryViewViewModel.swift */,
+				02A008DF2B648156007CE0FC /* CheckInItemViewViewModel.swift */,
+				02A008E12B648167007CE0FC /* CheckInSummaryViewViewModel.swift */,
+				02A008E32B648175007CE0FC /* AddItemViewViewModel.swift */,
+				02A008E52B648187007CE0FC /* AddCategoryViewViewModel.swift */,
+				02A008E72B648194007CE0FC /* LoginViewViewModel.swift */,
+				02A008E92B6481A1007CE0FC /* RegisterViewViewModel.swift */,
+				02F9A9DC2B658DC7006DB0D9 /* SettingsViewViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		02A008BA2B645D25007CE0FC /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				02A008882B645416007CE0FC /* ContentView.swift */,
+				02F9A9DE2B659077006DB0D9 /* CheckInPageView.swift */,
+				02A008BE2B647E5D007CE0FC /* CheckInCategoryView.swift */,
+				02A008BC2B647E36007CE0FC /* CheckInView.swift */,
+				02A008C02B647E7E007CE0FC /* CheckInItemView.swift */,
+				02A008C22B647F1B007CE0FC /* CheckInSummaryView.swift */,
+				02A008C42B647F4C007CE0FC /* AddItemView.swift */,
+				02A008C62B647F9D007CE0FC /* AddCategoryView.swift */,
+				02A008C82B647FC0007CE0FC /* LoginView.swift */,
+				02A008CA2B647FCD007CE0FC /* RegisterView.swift */,
+				02A008EB2B648516007CE0FC /* HeaderView.swift */,
+				02A008ED2B64924E007CE0FC /* FormButton.swift */,
+				02F9A9DA2B658DAD006DB0D9 /* SettingsView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		02A008BB2B645D31007CE0FC /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				02A008862B645416007CE0FC /* LentilHealthApp.swift */,
+				02A0088A2B645418007CE0FC /* Assets.xcassets */,
+				02A008EF2B64A6EF007CE0FC /* Extensions.swift */,
+				02F9A9E62B97AA3F006DB0D9 /* GoogleService-Info.plist */,
+				02F9A9E22B65EF12006DB0D9 /* Launch Screen.storyboard */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		02A008D22B6480C4007CE0FC /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				02A008D32B6480D5007CE0FC /* User.swift */,
+				02A008D52B6480E3007CE0FC /* Category.swift */,
+				02A008D72B6480EC007CE0FC /* Item.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -143,6 +279,11 @@
 			dependencies = (
 			);
 			name = LentilHealth;
+			packageProductDependencies = (
+				02A008B32B645751007CE0FC /* FirebaseAuth */,
+				02A008B52B645751007CE0FC /* FirebaseFirestore */,
+				02A008B72B645751007CE0FC /* FirebaseFirestoreSwift */,
+			);
 			productName = LentilHealth;
 			productReference = 02A008832B645416007CE0FC /* LentilHealth.app */;
 			productType = "com.apple.product-type.application";
@@ -215,6 +356,9 @@
 				Base,
 			);
 			mainGroup = 02A0087A2B645416007CE0FC;
+			packageReferences = (
+				02A008B22B645751007CE0FC /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
 			productRefGroup = 02A008842B645416007CE0FC /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -233,6 +377,8 @@
 			files = (
 				02A0088E2B645418007CE0FC /* Preview Assets.xcassets in Resources */,
 				02A0088B2B645418007CE0FC /* Assets.xcassets in Resources */,
+				02F9A9E72B97AA3F006DB0D9 /* GoogleService-Info.plist in Resources */,
+				02F9A9E32B65EF12006DB0D9 /* Launch Screen.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -257,8 +403,36 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				02A008EA2B6481A1007CE0FC /* RegisterViewViewModel.swift in Sources */,
 				02A008892B645416007CE0FC /* ContentView.swift in Sources */,
+				02A008E82B648194007CE0FC /* LoginViewViewModel.swift in Sources */,
+				02A008CB2B647FCD007CE0FC /* RegisterView.swift in Sources */,
 				02A008872B645416007CE0FC /* LentilHealthApp.swift in Sources */,
+				02A008DE2B648146007CE0FC /* CheckInCategoryViewViewModel.swift in Sources */,
+				02A008C72B647F9D007CE0FC /* AddCategoryView.swift in Sources */,
+				02F9A9E12B659089006DB0D9 /* CheckInPageViewViewModel.swift in Sources */,
+				02A008C92B647FC0007CE0FC /* LoginView.swift in Sources */,
+				02A008C52B647F4C007CE0FC /* AddItemView.swift in Sources */,
+				02A008BF2B647E5D007CE0FC /* CheckInCategoryView.swift in Sources */,
+				02A008D82B6480EC007CE0FC /* Item.swift in Sources */,
+				02A008EE2B64924E007CE0FC /* FormButton.swift in Sources */,
+				02A008C32B647F1B007CE0FC /* CheckInSummaryView.swift in Sources */,
+				02A008DC2B64812B007CE0FC /* CheckInViewViewModel.swift in Sources */,
+				02F9A9DD2B658DC7006DB0D9 /* SettingsViewViewModel.swift in Sources */,
+				02A008E62B648187007CE0FC /* AddCategoryViewViewModel.swift in Sources */,
+				02A008DA2B64811C007CE0FC /* ContentViewViewModel.swift in Sources */,
+				0218BE512B97F39C0049EA7F /* UserManager.swift in Sources */,
+				02A008E42B648175007CE0FC /* AddItemViewViewModel.swift in Sources */,
+				02A008C12B647E7E007CE0FC /* CheckInItemView.swift in Sources */,
+				02A008BD2B647E36007CE0FC /* CheckInView.swift in Sources */,
+				02A008D42B6480D5007CE0FC /* User.swift in Sources */,
+				02A008F02B64A6EF007CE0FC /* Extensions.swift in Sources */,
+				02A008D62B6480E3007CE0FC /* Category.swift in Sources */,
+				02A008E22B648167007CE0FC /* CheckInSummaryViewViewModel.swift in Sources */,
+				02A008EC2B648516007CE0FC /* HeaderView.swift in Sources */,
+				02F9A9DF2B659077006DB0D9 /* CheckInPageView.swift in Sources */,
+				02A008E02B648156007CE0FC /* CheckInItemViewViewModel.swift in Sources */,
+				02F9A9DB2B658DAD006DB0D9 /* SettingsView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -424,11 +598,12 @@
 				DEVELOPMENT_ASSET_PATHS = "\"LentilHealth/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = Lentil;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen.storyboard";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -452,11 +627,12 @@
 				DEVELOPMENT_ASSET_PATHS = "\"LentilHealth/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = Lentil;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen.storyboard";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -582,6 +758,35 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		02A008B22B645751007CE0FC /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 10.20.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		02A008B32B645751007CE0FC /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 02A008B22B645751007CE0FC /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		02A008B52B645751007CE0FC /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 02A008B22B645751007CE0FC /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+		02A008B72B645751007CE0FC /* FirebaseFirestoreSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 02A008B22B645751007CE0FC /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestoreSwift;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 02A0087B2B645416007CE0FC /* Project object */;
 }
