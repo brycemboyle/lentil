@@ -16,7 +16,7 @@ class RegisterViewViewModel: ObservableObject {
 //    
     init() {}
 //    
-    func register () async throws{
+    func register (){
         print("registering")
         guard validate() else {
             print("invalid")
@@ -32,8 +32,7 @@ class RegisterViewViewModel: ObservableObject {
                 print(error)
                 return
             }
-//            self?.insertUserRecord(id: userId)
-            try await addUser(id: userId)
+            self?.insertUserRecord(id: userId)
         }
     }
     
